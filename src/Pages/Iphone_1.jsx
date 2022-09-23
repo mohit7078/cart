@@ -1,29 +1,50 @@
 import React, { Component } from "react";
-import { render } from "react-dom";
-import flower from "../assets/images/flower.png";
 import { useParams } from "react-router-dom";
+import phone from "../assets/images/phone.png";
+import whitephone from "../assets/images/whitephone.jpg";
+import bluephone from "../assets/images/bluephone.jpg";
+import lava from "../assets/images/lava.webp";
+import flower from "../assets/images/flower.png";
 
-export class Instagram extends Component {
+export class Iphone_1 extends Component {
   state = {
     liked: false,
     count: 0,
   };
+
   render() {
     return (
       <div className="container">
         <div className="row">
-          <Social like={this.state.liked} />
-          <Add_delete set={this.state.count} />
-          <Social like={this.state.liked} />
-          <Add_delete set={this.state.count} />
-          <Social like={this.state.liked} />
-          <Add_delete set={this.state.count} />
-          <Social like={this.state.liked} />
-          <Add_delete set={this.state.count} />
-          <Social like={this.state.liked} />
-          <Add_delete set={this.state.count} />
-          <Social like={this.state.liked} />
-          <Add_delete set={this.state.count} />
+          <div className="col-md-4">
+            <div className="row">
+              <div className="col-md-4 d-flex">
+              <img src={whitephone} className="phones" /> <br />
+              </div>
+              <div className="col-md-8">
+              <button>Additems</button>
+            <button>add</button>
+            <button>sub</button>
+              </div>
+            </div>
+
+            <img src={whitephone} className="phones" /> <br />
+            <button>Additems</button>
+            <button>add</button>
+            <button>sub</button>
+          </div>
+          <div className="col-md-4">
+            <img src={whitephone} className="phones" /> <br />
+            <button>Additems</button>
+            <button>add</button>
+            <button>sub</button>
+          </div>
+          <div className="col-md-4">
+            <img src={bluephone} className="phones" /> <br />
+            <button>Additems</button>
+            <button>add</button>
+            <button>sub</button>
+          </div>
         </div>
       </div>
     );
@@ -43,7 +64,7 @@ class Social extends React.Component {
       <>
         <div className="col-md-3">
           <img src={flower} width="150" />
-           <br />
+          <br />
           {this.state.like ? (
             <i
               class="fa-solid fa-2x fa-heart text-center"
@@ -73,8 +94,7 @@ class Social extends React.Component {
 class Add_delete extends React.Component {
   constructor(props) {
     super(props);
-    this.state =
-     {
+    this.state = {
       countNew: props.set,
     };
   }
@@ -116,7 +136,4 @@ class Add_delete extends React.Component {
   }
 }
 
-
-
-
-export default Instagram;
+export default Iphone_1;
