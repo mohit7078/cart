@@ -9,6 +9,7 @@ export class Iphone2 extends Component {
   state = {
     liked: false,
     count: 0,
+  
   };
   render() {
     return (
@@ -16,7 +17,7 @@ export class Iphone2 extends Component {
         {/* First product */}
         <div className="row single_product_row">
           <div className="col-md-3 phone_col">
-            <Link to={"/Productdetails/" + 1}>
+            <Link to={"/Productdetails/" + 13}>
               {" "}
               <img src={whitephone} className="phone" />{" "}
            
@@ -24,10 +25,7 @@ export class Iphone2 extends Component {
             <br />
           </div>
           <div className="col-md-7">
-            <Link to={"/Productdetails/" + 1}>
-              {" "}
-              <h3>Iphone 13</h3>{" "}
-            </Link>
+          <Link to={"/productdetails/"+13}>  <h3>Iphone 13</h3>{" "} </Link>
             <p>
           APPLE iPhone 14 Pro Max (Space Black, 512 GB)
               <ul class="feature_list">
@@ -63,14 +61,14 @@ export class Iphone2 extends Component {
         {/* second product */}
         <div className="row single_product_row">
           <div className="col-md-3 phone_col">
-            <Link to={"/Productdetails/" + 2}>
+            <Link to={"/Productdetails/" + 14}>
               {" "}
               <img src={whitephone} className="phone" />{" "}
             </Link>{" "}
             <br />
           </div>
           <div className="col-md-7">
-            <Link to={"/Productdetails/" + 2}>
+            <Link to={"/Productdetails/" + 14}>
               {" "}
               <h3>Iphone 14</h3>{" "}
             </Link>
@@ -107,14 +105,14 @@ export class Iphone2 extends Component {
         {/* third product */}
         <div className="row single_product_row">
           <div className="col-md-3 phone_col">
-            <Link to={"/Productdetails/" + 3}>
+            <Link to={"/Productdetails/" + 15}>
               {" "}
               <img src={whitephone} className="phone" />{" "}
             </Link>{" "}
             <br />
           </div>
           <div className="col-md-7">
-            <Link to={"/Productdetails/" + 3}>
+            <Link to={"/Productdetails/" + 15}>
               {" "}
               <h3>Iphone 15</h3>{" "}
             </Link>
@@ -151,14 +149,14 @@ export class Iphone2 extends Component {
         {/* 4th product */}
         <div className="row single_product_row">
           <div className="col-md-3 phone_col">
-            <Link to={"/Productdetails/" + 4}>
+            <Link to={"/Productdetails/" + 16}>
               {" "}
               <img src={whitephone} className="phone" />{" "}
             </Link>{" "}
             <br />
           </div>
           <div className="col-md-7">
-            <Link to={"/Productdetails/" + 4}>
+            <Link to={"/Productdetails/" + 16}>
               {" "}
               <h3>Iphone 16</h3>{" "}
             </Link>

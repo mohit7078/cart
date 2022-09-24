@@ -16,8 +16,6 @@ export class App extends Component {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/dynamic" element={<Dynamic />} />
-          <Route path="/details/:product_id" element={<Details />} />
-
           <Route path="/iphone2" element={<Iphone2 />} />
 
           <Route

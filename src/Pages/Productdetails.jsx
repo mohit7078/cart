@@ -23,6 +23,7 @@ export class Productdetails extends Component {
     super(props);
     this.state = {
       id: this.props.product_id,
+     
     };
   }
 
@@ -34,7 +35,8 @@ export class Productdetails extends Component {
          <Link to ={"/iphone2/"} > <i class="fa-solid fa-xl home fa-house"></i> </Link>
           </div>
           <div className="col-md-11 py-4">
-            <h3 className="product_heading">Product Information</h3>
+            <h3 className="product_heading">Iphone{this.props.product_id}</h3>
+            
 
             <hr />
           </div>
