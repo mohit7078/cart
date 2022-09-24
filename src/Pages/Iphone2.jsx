@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { useParams } from "react-router-dom";
 import whitephone from "../assets/images/whitephone.jpg";
+import { Link } from "react-router-dom";
 
 export class Iphone2 extends Component {
   state = {
@@ -10,12 +11,20 @@ export class Iphone2 extends Component {
   render() {
     return (
       <div className="container">
+        {/* First product */}
         <div className="row single_product_row">
           <div className="col-md-3 phone_col">
-            <img src={whitephone} className="phone" /> <br />
+            <Link to={"/Productdetails/" + 1}>
+              {" "}
+              <img src={whitephone} className="phone" />{" "}
+            </Link>{" "}
+            <br />
           </div>
           <div className="col-md-7">
-            <h3>Iphone 13</h3>
+            <Link to={"/Productdetails/"+1}>
+              {" "}
+              <h3>Iphone 13</h3>{" "}
+            </Link>
             <p>
               mohit Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Recusandae, accusantium.
@@ -30,12 +39,20 @@ export class Iphone2 extends Component {
             </div>
           </div>
         </div>
+        {/* second product */}
         <div className="row single_product_row">
           <div className="col-md-3 phone_col">
-            <img src={whitephone} className="phone" /> <br />
+            <Link to={"/Productdetails/"+2}>
+              {" "}
+              <img src={whitephone} className="phone" />{" "}
+            </Link>{" "}
+            <br />
           </div>
           <div className="col-md-7">
-            <h3>Iphone 13</h3>
+            <Link to={"/Productdetails/"+2}>
+              {" "}
+              <h3>Iphone 13</h3>{" "}
+            </Link>
             <p>
               mohit Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Recusandae, accusantium.
@@ -50,12 +67,20 @@ export class Iphone2 extends Component {
             </div>
           </div>
         </div>
+        {/* third product */}
         <div className="row single_product_row">
           <div className="col-md-3 phone_col">
-            <img src={whitephone} className="phone" /> <br />
+            <Link to={"/Productdetails/"+3}>
+              {" "}
+              <img src={whitephone} className="phone" />{" "}
+            </Link>{" "}
+            <br />
           </div>
           <div className="col-md-7">
-            <h3>Iphone 13</h3>
+            <Link to={"/Productdetails/"+3}>
+              {" "}
+              <h3>Iphone 13</h3>{" "}
+            </Link>
             <p>
               mohit Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Recusandae, accusantium.
@@ -70,52 +95,20 @@ export class Iphone2 extends Component {
             </div>
           </div>
         </div>
+        {/* 4th product */}
         <div className="row single_product_row">
           <div className="col-md-3 phone_col">
-            <img src={whitephone} className="phone" /> <br />
+            <Link to={"/Productdetails/"+4}>
+              {" "}
+              <img src={whitephone} className="phone" />{" "}
+            </Link>{" "}
+            <br />
           </div>
           <div className="col-md-7">
-            <h3>Iphone 13</h3>
-            <p>
-              mohit Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae, accusantium.
-            </p>
-          </div>
-          <div className="col-md-2 d-flex flex-column justify-content-between">
-            <div className="d-flex justify-content-end">
-              <Social />
-            </div>
-            <div className="d-flex justify-content-end">
-              <Add_delete count={this.state.count} />
-            </div>
-          </div>
-        </div>
-        <div className="row single_product_row">
-          <div className="col-md-3 phone_col">
-            <img src={whitephone} className="phone" /> <br />
-          </div>
-          <div className="col-md-7">
-            <h3>Iphone 13</h3>
-            <p>
-              mohit Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae, accusantium.
-            </p>
-          </div>
-          <div className="col-md-2 d-flex flex-column justify-content-between">
-            <div className="d-flex justify-content-end">
-              <Social />
-            </div>
-            <div className="d-flex justify-content-end">
-              <Add_delete count={this.state.count} />
-            </div>
-          </div>
-        </div>
-        <div className="row single_product_row">
-          <div className="col-md-3 phone_col">
-            <img src={whitephone} className="phone" /> <br />
-          </div>
-          <div className="col-md-7">
-            <h3>Iphone 13</h3>
+            <Link to={"/Productdetails/"+4}>
+              {" "}
+              <h3>Iphone 13</h3>{" "}
+            </Link>
             <p>
               mohit Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Recusandae, accusantium.
