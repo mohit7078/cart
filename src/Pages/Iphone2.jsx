@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { useParams } from "react-router-dom";
 import whitephone from "../assets/images/whitephone.jpg";
+import phone from "../assets/images/phone.png";
+
 import { Link } from "react-router-dom";
 
 export class Iphone2 extends Component {
@@ -17,46 +19,81 @@ export class Iphone2 extends Component {
             <Link to={"/Productdetails/" + 1}>
               {" "}
               <img src={whitephone} className="phone" />{" "}
+           
             </Link>{" "}
             <br />
           </div>
           <div className="col-md-7">
-            <Link to={"/Productdetails/"+1}>
+            <Link to={"/Productdetails/" + 1}>
               {" "}
               <h3>Iphone 13</h3>{" "}
             </Link>
             <p>
-              mohit Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae, accusantium.
+          APPLE iPhone 14 Pro Max (Space Black, 512 GB)
+              <ul class="feature_list">
+              <li class="rgWa7D">512 GB ROM</li>
+              <li class="rgWa7D">
+                17.02 cm (6.7 inch) Super Retina XDR Display
+              </li>
+              <li class="rgWa7D">
+                48MP + 12MP + 12MP + 12MP | 12MP Front Camera
+              </li>
+              <li class="rgWa7D">
+                A16 Bionic Chip, 6 Core Processor Processor
+              </li>
+              <li class="rgWa7D">
+                1 Year Warranty for Phone and 6 Months Warranty for In-Box
+                Accessories
+              </li>
+            </ul>
             </p>
+        
           </div>
           <div className="col-md-2 d-flex flex-column justify-content-between">
             <div className="d-flex justify-content-end">
               <Social />
+              
             </div>
             <div className="d-flex justify-content-end">
-              <Add_delete count={this.state.count} />
+              <Add_delete count={this.state.count} /> <br />
+            
             </div>
           </div>
         </div>
         {/* second product */}
         <div className="row single_product_row">
           <div className="col-md-3 phone_col">
-            <Link to={"/Productdetails/"+2}>
+            <Link to={"/Productdetails/" + 2}>
               {" "}
               <img src={whitephone} className="phone" />{" "}
             </Link>{" "}
             <br />
           </div>
           <div className="col-md-7">
-            <Link to={"/Productdetails/"+2}>
+            <Link to={"/Productdetails/" + 2}>
               {" "}
-              <h3>Iphone 13</h3>{" "}
+              <h3>Iphone 14</h3>{" "}
             </Link>
             <p>
-              mohit Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae, accusantium.
+          APPLE iPhone 14 Pro Max (Space Black, 512 GB)
+              <ul class="feature_list">
+              <li class="rgWa7D">512 GB ROM</li>
+              <li class="rgWa7D">
+                17.02 cm (6.7 inch) Super Retina XDR Display
+              </li>
+              <li class="rgWa7D">
+                48MP + 12MP + 12MP + 12MP | 12MP Front Camera
+              </li>
+              <li class="rgWa7D">
+                A16 Bionic Chip, 6 Core Processor Processor
+              </li>
+              <li class="rgWa7D">
+                1 Year Warranty for Phone and 6 Months Warranty for In-Box
+                Accessories
+              </li>
+            </ul>
             </p>
+        
           </div>
           <div className="col-md-2 d-flex flex-column justify-content-between">
             <div className="d-flex justify-content-end">
@@ -70,21 +107,37 @@ export class Iphone2 extends Component {
         {/* third product */}
         <div className="row single_product_row">
           <div className="col-md-3 phone_col">
-            <Link to={"/Productdetails/"+3}>
+            <Link to={"/Productdetails/" + 3}>
               {" "}
               <img src={whitephone} className="phone" />{" "}
             </Link>{" "}
             <br />
           </div>
           <div className="col-md-7">
-            <Link to={"/Productdetails/"+3}>
+            <Link to={"/Productdetails/" + 3}>
               {" "}
-              <h3>Iphone 13</h3>{" "}
+              <h3>Iphone 15</h3>{" "}
             </Link>
             <p>
-              mohit Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae, accusantium.
+          APPLE iPhone 14 Pro Max (Space Black, 512 GB)
+              <ul class="feature_list">
+              <li class="rgWa7D">512 GB ROM</li>
+              <li class="rgWa7D">
+                17.02 cm (6.7 inch) Super Retina XDR Display
+              </li>
+              <li class="rgWa7D">
+                48MP + 12MP + 12MP + 12MP | 12MP Front Camera
+              </li>
+              <li class="rgWa7D">
+                A16 Bionic Chip, 6 Core Processor Processor
+              </li>
+              <li class="rgWa7D">
+                1 Year Warranty for Phone and 6 Months Warranty for In-Box
+                Accessories
+              </li>
+            </ul>
             </p>
+        
           </div>
           <div className="col-md-2 d-flex flex-column justify-content-between">
             <div className="d-flex justify-content-end">
@@ -98,21 +151,37 @@ export class Iphone2 extends Component {
         {/* 4th product */}
         <div className="row single_product_row">
           <div className="col-md-3 phone_col">
-            <Link to={"/Productdetails/"+4}>
+            <Link to={"/Productdetails/" + 4}>
               {" "}
               <img src={whitephone} className="phone" />{" "}
             </Link>{" "}
             <br />
           </div>
           <div className="col-md-7">
-            <Link to={"/Productdetails/"+4}>
+            <Link to={"/Productdetails/" + 4}>
               {" "}
-              <h3>Iphone 13</h3>{" "}
+              <h3>Iphone 16</h3>{" "}
             </Link>
             <p>
-              mohit Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae, accusantium.
+          APPLE iPhone 14 Pro Max (Space Black, 512 GB)
+              <ul class="feature_list">
+              <li class="rgWa7D">512 GB ROM</li>
+              <li class="rgWa7D">
+                17.02 cm (6.7 inch) Super Retina XDR Display
+              </li>
+              <li class="rgWa7D">
+                48MP + 12MP + 12MP + 12MP | 12MP Front Camera
+              </li>
+              <li class="rgWa7D">
+                A16 Bionic Chip, 6 Core Processor Processor
+              </li>
+              <li class="rgWa7D">
+                1 Year Warranty for Phone and 6 Months Warranty for In-Box
+                Accessories
+              </li>
+            </ul>
             </p>
+        
           </div>
           <div className="col-md-2 d-flex flex-column justify-content-between">
             <div className="d-flex justify-content-end">
@@ -221,6 +290,8 @@ class Add_delete extends React.Component {
                 }}
               ></i>
             </div>
+
+
           </div>
         )}
       </>

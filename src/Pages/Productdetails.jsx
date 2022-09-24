@@ -7,9 +7,9 @@ import blackphone from "../assets/images/blackphone.png";
 import cameraimg from "../assets/images/cameraimg.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import { Link,useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Hero from "../component/Hero";
-import Description from "../component/Description"
+import Description from "../component/Description";
 
 const options = {
   autoPlay: true,
@@ -26,15 +26,12 @@ export class Productdetails extends Component {
     };
   }
 
- 
-
   render() {
     return (
       <div className="container">
-      
         <div className="row">
           <div className="col-md-1 py-4">
-         <i class="fa-solid fa-xl home fa-house"></i>
+         <Link to ={"/iphone2/"} > <i class="fa-solid fa-xl home fa-house"></i> </Link>
           </div>
           <div className="col-md-11 py-4">
             <h3 className="product_heading">Product Information</h3>
@@ -102,18 +99,36 @@ export class Productdetails extends Component {
             </p>
 
             <div className="cost"> Cost = $250</div>
-<>
-           <Description/> </>
+            <>
+              <Description />{" "}
+            </>
           </div>
         </div>
         <div className="row">
           <h1>Specifications</h1>
-
-         
         </div>
-        <div
-        className="py-4"> <Hero/></div>
-       
+        <div className="py-4">
+          {" "}
+          <Hero />
+        </div>
+
+        <div className="row single_product_row3">
+          <h2 class="font-md mb-2">Ixhone </h2>
+          <h6 class="font-sm  mb-2 text-bold">Order-ID: WD-1663762222</h6>
+          <h6 class="font-sm  mb-2">Date:Wed, Sep 21, 2022 5:36 AM</h6>
+          <span class=" font-sm">
+            Paid: <span class="font-sm">1890</span>
+          </span>
+          <hr />
+          <div class="bottom-content" style={{textAlign:"Right"}}>
+            
+              View Order <Link to ={"/iphone2/"}> <button  className="cartbtn2">Cancel Order  <i class="fa-solid fa-bolt-lightning" ></i></button></Link>
+            
+        
+      
+          </div>
+        </div>
+        
       </div>
     );
   }

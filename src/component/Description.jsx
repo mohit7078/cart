@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class Description extends Component {
   render() {
     return (
-      <div className="row">
+      <div className="row py-4" >
    
             <h2> Description</h2>
             <p>
